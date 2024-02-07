@@ -5,6 +5,10 @@
   display: none;
   width: 100%;
 
+  @include onTablet {
+    max-width: 768px;
+  }
+
   @include onDescktop {
     display: block;
     width: 175.5px;
@@ -24,14 +28,16 @@
     border: none;
     outline: none;
     padding: 10.5px 21px;
+    font-size: 1rem;
+    font-weight: 400;
 
     caret-color: var(--inputText);
     color: var(--inputText);
     background-color: var(--inputBG);
 
     &::placeholder {
-      font-size: 1rem;
-      font-weight: 400;
+      font-size: inherit;
+      font-weight: inherit;
       line-height: 21px;
       color: var(--inputText);
     }

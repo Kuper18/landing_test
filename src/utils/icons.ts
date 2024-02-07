@@ -4,6 +4,12 @@ import instagram from '../images/icons/instagram.svg';
 import youtube from '../images/icons/youtube.svg';
 import email from '../images/icons/email.svg';
 import wifi from '../images/icons/wifi.svg';
+import telegram from '../images/icons/telegram.svg';
+import pIcon from '../images/icons/p.svg';
+import monkey from '../images/icons/monkey.svg';
+import heart from '../images/icons/heart.svg';
+import facebook_F from '../images/icons/facebook-f.svg';
+import twitter_1 from '../images/icons/twitter1.svg';
 
 import facebookGreen from '../images/icons/facebook-green.svg';
 import twiterGreen from '../images/icons/twiter-green.svg';
@@ -35,4 +41,13 @@ export const socialMediaIconsLight = [
   youtubeGreen,
   emailGreen,
   wifiGreen,
+];
+
+export const asideLinks = [
+  facebook_F,
+  twitter_1,
+  telegram,
+  pIcon,
+  monkey,
+  heart,
 ];

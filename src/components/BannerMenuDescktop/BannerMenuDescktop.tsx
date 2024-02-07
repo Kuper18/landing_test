@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-boolean-value */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './BannerMenuDescktop.scss';
 
@@ -21,7 +21,7 @@ export const BannerMenuDescktop = () => {
         <ul className="banner-menu-descktop__list">
           {items.map((item, i) => (
             <li key={`${i + 1}`} className="banner-menu-descktop__item">
-              <a className="banner-menu-descktop__link" href="/#">
+              <a className="banner-menu-descktop__link" href="#">
                 {item}
               </a>
             </li>

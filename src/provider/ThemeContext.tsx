@@ -22,8 +22,10 @@ export const ThemeContext = createContext<ThemeContextProps>({
   theme: THEMES.dark,
 } as ThemeContextProps);
 
+const currentTheme = localStorage.getItem('theme') || 'dark';
+
 export const ThemeProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme] = useState<ThemeType>('dark');
+  const [theme, setTheme] = useState<ThemeType>(currentTheme as ThemeType);
 
   return (
     <ThemeContext.Provider

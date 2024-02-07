@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { socialMediaIcons, socialMediaIconsLight } from '../../utils/icons';
 import { useTheme } from '../../provider/ThemeContext';
@@ -13,7 +14,7 @@ export const FooterListIcon = () => {
     <ul className="footer-list-icon">
       {iconToMap.map((icon) => (
         <li className="footer-list-icon__item" key={`${icon}`}>
-          <a className="footer-list-icon__link" href="/#">
+          <a className="footer-list-icon__link" href="#">
             <img className="footer-icon" src={icon} alt="Icon" />
           </a>
         </li>

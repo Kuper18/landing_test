@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import cn from 'classnames';
 import './BannerMenuContent.scss';
@@ -25,7 +26,7 @@ export const BannerMenuContent: React.FC<Props> = ({
       <ul className="banner-menu__list">
         {items.map((item, i) => (
           <li key={`${i + 1}`} className="banner-menu__item">
-            <a className="banner-menu__link" href="/#" onClick={handleClick}>
+            <a className="banner-menu__link" href="#" onClick={handleClick}>
               {item}
             </a>
           </li>

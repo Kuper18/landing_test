@@ -5,6 +5,7 @@ import { useTheme } from './provider/ThemeContext';
 import { Footer } from './components/Footer/Footer';
 
 import './App.scss';
+import { AsideLinks } from './components/AsideLinks/AsideLinks';
 
 export const App = () => {
   const { theme } = useTheme();
@@ -18,6 +19,7 @@ export const App = () => {
         } as React.CSSProperties
       }
     >
+      <AsideLinks />
       <Header />
       <Main />
       <Footer />

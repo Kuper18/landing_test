@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import moon_icon from '../../images/icons/moon-icon.svg';
 import sun_icon from '../../images/icons/sun-icon.svg';
@@ -10,6 +11,12 @@ export const NavTop = () => {
 
   const handleClick = () => {
     setTheme((prevThemeType) => {
+      if (prevThemeType === 'dark') {
+        localStorage.setItem('theme', 'light');
+      } else {
+        localStorage.setItem('theme', 'dark');
+      }
+
       return prevThemeType === 'dark' ? 'light' : 'dark';
     });
   };
@@ -21,7 +28,7 @@ export const NavTop = () => {
           <ul className="nav-top-list">
             {iconsMenu.map((icon, i) => (
               <li key={`${icon}`} className="nav-top-list__item">
-                <a className="nav-top-list__link" href="/">
+                <a className="nav-top-list__link" href="#">
                   <img src={icon} alt="Icon" />
                   {`Menu item ${i + 1}`}
                 </a>
@@ -33,7 +40,7 @@ export const NavTop = () => {
             <ul className="nav__list">
               {socialMediaIcons.map((icon) => (
                 <li className="nav__item" key={`${icon}`}>
-                  <a className="nav__link" href="/">
+                  <a className="nav__link" href="#">
                     <img className="nav__icon" src={icon} alt="Icon" />
                   </a>
                 </li>

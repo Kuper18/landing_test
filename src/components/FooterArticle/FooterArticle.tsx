@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './FooterArticle.scss';
 
@@ -15,7 +16,7 @@ export const FooterArticle: React.FC<Props> = ({ children }) => {
       <ul className="footer-article__list">
         {items.map((item) => (
           <li className="footer-article__item" key={item}>
-            <a className="footer-article__link" href="/#">
+            <a className="footer-article__link" href="#">
               link
             </a>
           </li>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { SearchInput } from '../SearchInput/SearchInput';
 import { NavList } from '../NavList/NavList';
@@ -48,7 +49,7 @@ export const NavMenu: React.FC<Props> = ({ isOpenMenu, handleClick }) => {
       <ul className="nav-menu__list">
         {iconsToMap.map((icon, i) => (
           <li key={`${icon}`} className="nav-menu__item">
-            <a onClick={handleClick} className="nav-menu__link" href="/">
+            <a onClick={handleClick} className="nav-menu__link" href="#">
               <img src={icon} alt="Icon" />
               {`Menu item ${i + 1}`}
             </a>
