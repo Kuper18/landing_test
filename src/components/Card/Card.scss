@@ -1,0 +1,45 @@
+@import '../../style/mixin.scss';
+
+.card {
+  width: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--cardBG);
+  box-shadow: 0px 3px 16px 0px var(--cardShadow);
+  transition: all 0.3s ease;
+
+
+  @include onDescktop {
+    width: 387px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 26.5px;
+    text-align: center;
+
+    color: var(--gradientEndCold);
+  }
+
+  &__image {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+    font-size: 0.875rem;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: var(--cardText);
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
+}

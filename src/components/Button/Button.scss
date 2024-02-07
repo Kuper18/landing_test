@@ -1,0 +1,34 @@
+@import '../../style/mixin.scss';
+
+.button {
+  position: relative;
+  z-index: 2;
+  display: none;
+  align-items: center;
+  gap: 4px;
+  height: 28px;
+
+  border: 1px solid var(--textButton);
+  border-radius: 17px;
+  padding: 5px 13px;
+
+  font-size: 0.875rem;
+  line-height: 18px;
+
+  color: var(--textButton);
+  background-color: transparent;
+  cursor: pointer;
+
+  &:last-child {
+    background-image: linear-gradient(
+      to right,
+      var(--gradientStartCold),
+      var(--gradientEndCold)
+    );
+    border: transparent;
+  }
+
+  @include onDescktop {
+    display: flex;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../style/mixin.scss';
+
+.bread-crumb {
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--breadCrumbColor);
+
+  @include onTablet {
+    text-align: left;
+  }
+
+  &__link {
+    text-decoration: none;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: inherit;
+  }
+}
+
+.text {
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}

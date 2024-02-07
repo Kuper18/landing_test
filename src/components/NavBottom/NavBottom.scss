@@ -1,0 +1,40 @@
+@import '../../style/mixin.scss';
+
+.nav-bottom {
+  padding: 15px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include onDescktop {
+      height: 80px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+  }
+}
+
+.menu {
+  width: 27px;
+  height: 30px;
+  border: none;
+  margin-right: 13px;
+
+  background-color: transparent;
+  background-image: url('../../images/icons/menu.svg');
+  cursor: pointer;
+
+  @include onDescktop {
+    display: none;
+  }
+
+  &-open {
+    background-image: url('../../images/icons/menu-close.svg');
+  }
+}

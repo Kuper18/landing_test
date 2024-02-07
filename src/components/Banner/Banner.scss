@@ -1,0 +1,136 @@
+@import '../../style/mixin.scss';
+
+.banner {
+  margin-bottom: 20px;
+  padding: 0 15px;
+
+  @include onTablet {
+    margin-bottom: 30px;
+  }
+
+  @include onDescktop {
+    margin-bottom: 54px;
+  }
+
+  &__box {
+    padding-bottom: 10px;
+    color: #fff;
+    box-shadow: 0px 22px 59px 0px var(--boxShadowMB);
+
+    @include onTablet {
+      box-shadow: 0px 22px 59px 0px var(--boxShadowTB);
+      border-radius: 40px;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+    background-color: var(--opacityBGImage);
+    background-image: url('../../images/mb-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include onTablet {
+      padding: 30px;
+      background-image: url('../../images/tb-bg-img.png');
+    }
+
+    @include onDescktop {
+      padding: 30px;
+      background-image: url('../../images/dt-bg-img.png');
+      background-position: -70px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+
+      border-radius: 30px;
+      background-color: var(--opacityBGImage);
+    }
+  }
+
+  &__photo {
+    width: 89px;
+    height: 89px;
+
+    @include onTablet {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.heading-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.circle-wrapper {
+  display: none;
+  align-items: center;
+  gap: 12px;
+
+  @include onDescktop {
+    display: flex;
+  }
+
+  &__players {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+
+  &__votes {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+  }
+
+  &__rating {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+  }
+
+  &__rating--level {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: var(--rating);
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}

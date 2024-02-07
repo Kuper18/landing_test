@@ -1,0 +1,79 @@
+@import '../../style/mixin.scss';
+
+.nav {
+  padding: 10px 15px;
+  background-image: linear-gradient(
+    to right,
+    var(--gradientStartCold),
+    var(--gradientEndCold)
+  );
+
+  &__box {
+    @include onTablet {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @include onTablet {
+      justify-content: initial;
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: 5px;
+  }
+
+  &__icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.nav-top-list {
+  display: none;
+
+  @include onTablet {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+
+  &__item:last-child {
+    display: none;
+
+    @include onDescktop {
+      display: block;
+    }
+  }
+
+  &__link {
+    @include navLink(var(--textButton));
+  }
+}
+
+.toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 54px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--toggleBackGround);
+  cursor: pointer;
+
+  &__icon {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s ease;
+  }
+}

@@ -1,0 +1,83 @@
+@import '../../style/mixin.scss';
+
+.banner-menu-descktop {
+  display: none;
+  margin-left: 56px;
+
+  @include onDescktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 19px;
+  }
+
+  &__title {
+    @include onDescktop {
+      @include bannerLinkFontSize;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+  }
+
+  &__item {
+    @include onDescktop {
+      border-left: 1px solid var(--breadCrumbColor);
+      padding-left: 17px;
+    }
+  }
+
+  &__link {
+    @include onDescktop {
+      @include bannerLinkFontSize;
+      text-transform: lowercase;
+      text-decoration: none;
+    }
+  }
+}
+
+.numbers {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    margin-right: 33px;
+
+    background-image: linear-gradient(
+      to right,
+      var(--gradientStartHot) 0%,
+      var(--gradientEndHot) 73%,
+      var(--numGradientEnd) 27%
+    );
+
+    :first-child {
+      border-left: none;
+      padding-left: 12px;
+    }
+
+    :last-child {
+      padding-right: 12px;
+    }
+
+    :nth-child(n + 9) {
+      color: var(--textColor);
+    }
+  }
+
+  &__item {
+    padding: 10.5px 6px;
+    border-left: 1px solid var(--noteBorder);
+  }
+}

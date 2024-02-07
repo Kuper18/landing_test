@@ -1,0 +1,57 @@
+@mixin onTablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin onDescktop {
+  @media (min-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin pseudoElement($width, $height, $margin) {
+  content: '';
+  display: block;
+  width: $width;
+  height: $height;
+  margin-top: $margin;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    var(--gradientStartCold),
+    var(--gradientEndCold)
+  );
+}
+
+@mixin linearGradientText {
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--gradientStartCold),
+    var(--gradientEndCold)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@mixin navLink($color) {
+  display: flex;
+  gap: 4.5px;
+
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 18px;
+
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin bannerLinkFontSize {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #707070;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import './style/mixin.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body.disable_scroll {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.App {
+  padding-bottom: 28px;
+  background-color: var(--backGroundColor);
+  transition: all 0.3s ease;
+}
+
+.container {
+  margin: 0 auto;
+
+  @include onTablet {
+    max-width: 768px;
+  }
+  @include onDescktop {
+    max-width: 1170px;
+  }
+}

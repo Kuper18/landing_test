@@ -1,0 +1,23 @@
+@import '../../style/mixin.scss';
+
+.list {
+  display: none;
+  gap: 20px;
+
+  color: var(--navListTextColor);
+
+
+  @include onDescktop {
+    display: flex;
+    gap: 28px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 25px;
+
+    color: inherit;
+  }
+}

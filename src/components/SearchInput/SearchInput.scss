@@ -1,0 +1,39 @@
+@import '../../style/mixin.scss';
+
+.search {
+  position: relative;
+  display: none;
+  width: 100%;
+
+  @include onDescktop {
+    display: block;
+    width: 175.5px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__input {
+    display: block;
+    height: 42px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 10.5px 21px;
+
+    caret-color: var(--inputText);
+    color: var(--inputText);
+    background-color: var(--inputBG);
+
+    &::placeholder {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 21px;
+      color: var(--inputText);
+    }
+  }
+}
