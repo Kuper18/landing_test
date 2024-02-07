@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { BannerMenuContent } from '../BannerMenuContent/BannerMenuContent';
+import { useTheme } from '../../provider/ThemeContext';
+import { BannerMenuContent } from '../BannerMenuContent';
 import { removeScrollForBody } from '../../utils/removeScrollForBody';
 import banner_menu_dark from '../../images/icons/banner-menu-dark.svg';
 import banner_menu from '../../images/icons/banner-menu.svg';
-import { useTheme } from '../../provider/ThemeContext';
 import './BannerMenu.scss';
 
 export const BannerMenu: React.FC = () => {

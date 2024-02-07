@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-boolean-value */
 import React from 'react';
+import { BannerMenu } from '../BannerMenu';
+import { Button } from '../Button';
+import { RatingCircle } from '../RatingCircle';
+import { BannerMenuDescktop } from '../BannerMenuDescktop';
 import gamePhoto from '../../images/Game Photo.png';
-import { BannerMenu } from '../BannerMenu/BannerMenu';
-import { Button } from '../Button/Button';
 import androidIcon from '../../images/icons/android.svg';
 import appleIcon from '../../images/icons/apple.svg';
 import downloadIcon from '../../images/icons/download-icon.svg';
-import { RatingCircle } from '../RatingCircle/RatingCircle';
-import { BannerMenuDescktop } from '../BannerMenuDescktop/BannerMenuDescktop';
 import './Banner.scss';
 
 export const Banner = () => {

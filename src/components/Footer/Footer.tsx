@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTheme } from '../../provider/ThemeContext';
+import { FooterArticle } from '../FooterArticle';
+import { FooterListIcon } from '../FooterListIcon';
 import logo_light from '../../images/icons/Logo.svg';
 import logo_dark from '../../images/icons/Logo-dark.svg';
-import { FooterArticle } from '../FooterArticle/FooterArticle';
-import { FooterListIcon } from '../FooterListIcon/FooterListIcon';
 import './Footer.scss';
 
 export const Footer = () => {

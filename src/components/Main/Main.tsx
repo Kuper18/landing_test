@@ -1,6 +1,6 @@
 import React from 'react';
-import { BreadCrumb } from '../BreadCrumb/BreadCrumb';
-import { CardList } from '../CardList/CardList';
+import { BreadCrumb } from '../BreadCrumb';
+import { CardList } from '../CardList';
 import './Main.scss';
 
 export const Main = () => {

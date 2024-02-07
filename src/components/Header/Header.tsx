@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavTop } from '../NavTop/NavTop';
-import { NavBottom } from '../NavBottom/NavBottom';
-import { Banner } from '../Banner/Banner';
+import { NavTop } from '../NavTop';
+import { NavBottom } from '../NavBottom';
+import { Banner } from '../Banner';
 import './Header.scss';
 
 export const Header = () => {

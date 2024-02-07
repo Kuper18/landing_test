@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from 'react';
 import cn from 'classnames';
-import { SearchInput } from '../SearchInput/SearchInput';
-import { NavList } from '../NavList/NavList';
 import { removeScrollForBody } from '../../utils/removeScrollForBody';
+import { SearchInput } from '../SearchInput';
+import { NavMenu } from '../NavMenu';
+import { NavList } from '../NavList';
 import logo_light from '../../images/icons/Logo.svg';
 import logo_dark from '../../images/icons/Logo-dark.svg';
-import { NavMenu } from '../NavMenu/NavMenu';
 
 import './NavBottom.scss';
 import { useTheme } from '../../provider/ThemeContext';

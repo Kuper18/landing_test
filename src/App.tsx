@@ -1,11 +1,11 @@
 import React from 'react';
-import { Header } from './components/Header/Header';
-import { Main } from './components/Main/Main';
 import { useTheme } from './provider/ThemeContext';
-import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+import { Footer } from './components/Footer';
+import { AsideLinks } from './components/AsideLinks';
 
 import './App.scss';
-import { AsideLinks } from './components/AsideLinks/AsideLinks';
 
 export const App = () => {
   const { theme } = useTheme();

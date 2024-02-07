@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { SearchInput } from '../SearchInput/SearchInput';
-import { NavList } from '../NavList/NavList';
+import { SearchInput } from '../SearchInput';
+import { NavList } from '../NavList';
 import phoneIcon from '../../images/icons/phone.svg';
 import cupIcon from '../../images/icons/cup.svg';
 import androidIcon from '../../images/icons/android.svg';
