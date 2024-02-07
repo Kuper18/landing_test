@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing_test/static/css/main.b7b7fb3d.css",
-    "main.js": "/landing_test/static/js/main.33e21992.js",
+    "main.css": "/landing_test/static/css/main.baa6948a.css",
+    "main.js": "/landing_test/static/js/main.083fe0fa.js",
     "static/media/dt-bg-img.png": "/landing_test/static/media/dt-bg-img.7ea7062a5af0f27f99d2.png",
     "static/media/fa-solid-900.ttf": "/landing_test/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/tb-bg-img.png": "/landing_test/static/media/tb-bg-img.4bede34757a6c8f21cb2.png",
@@ -16,25 +16,25 @@
     "static/media/fa-v4compatibility.ttf": "/landing_test/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/landing_test/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "static/media/instagram-green.svg": "/landing_test/static/media/instagram-green.da2ef806209e91627ca62ccc4af4166e.svg",
-    "static/media/instagram.svg": "/landing_test/static/media/instagram.3220526b700880e9ab2e60ea9346060d.svg",
+    "static/media/instagram.svg": "/landing_test/static/media/instagram.9bf5138a242cd56aaf194d757a120d66.svg",
     "static/media/Logo.svg": "/landing_test/static/media/Logo.3e88061de14eaaae338c0e653e3f764a.svg",
     "static/media/email-green.svg": "/landing_test/static/media/email-green.d8106202cbb7cccc2f4c32baa6acfd7f.svg",
-    "static/media/email.svg": "/landing_test/static/media/email.5d1d795dce2e33cc1938f900cb192405.svg",
+    "static/media/email.svg": "/landing_test/static/media/email.3415f006715b46c34cb3285519e611d1.svg",
     "static/media/Logo-dark.svg": "/landing_test/static/media/Logo-dark.68213f8119932a05c191fbad827384b0.svg",
     "static/media/sun-icon.svg": "/landing_test/static/media/sun-icon.d6324e5f4dc869e4b1c029057be6fdd8.svg",
     "static/media/download-icon.svg": "/landing_test/static/media/download-icon.c0297db91b505878520839413b9c4021.svg",
     "static/media/twiter-green.svg": "/landing_test/static/media/twiter-green.237687d46a2e67bec8f7da2dd5b3924c.svg",
-    "static/media/twiter.svg": "/landing_test/static/media/twiter.8d012b592f2f4befa9d13a28e1cd19be.svg",
+    "static/media/twiter.svg": "/landing_test/static/media/twiter.4db1b776952bf8f22a1d193f86073194.svg",
     "static/media/android-dark.svg": "/landing_test/static/media/android-dark.10916df37eb6a6337b562aa807f801c4.svg",
     "static/media/android.svg": "/landing_test/static/media/android.5a3ea33a1dc673f36ff45d3a0d488e66.svg",
     "static/media/youtube-green.svg": "/landing_test/static/media/youtube-green.d9f3af3af4cff20e181a95fc1ce7c823.svg",
     "static/media/wifi-green.svg": "/landing_test/static/media/wifi-green.ac3c07fd45d897578a1663d818e467f6.svg",
-    "static/media/youtube.svg": "/landing_test/static/media/youtube.88e071823d9bca5e5fe9a71aff0a4aa3.svg",
+    "static/media/youtube.svg": "/landing_test/static/media/youtube.81cad2b18d085c6b31ab0ae7ffb0ff9b.svg",
     "static/media/apple-dark.svg": "/landing_test/static/media/apple-dark.49e3ddbd85092a871acdbcd7ba07926b.svg",
     "static/media/apple.svg": "/landing_test/static/media/apple.3532a2b7aca37c541071b5e6b18f03b6.svg",
-    "static/media/wifi.svg": "/landing_test/static/media/wifi.4dfa03d13023f8b2c55ebcfcec302bd9.svg",
+    "static/media/wifi.svg": "/landing_test/static/media/wifi.520c888824c38d695613ffd4e60e4bdc.svg",
     "static/media/facebook-green.svg": "/landing_test/static/media/facebook-green.5634fdb457d40797a96f73e1cb1df326.svg",
-    "static/media/facebook.svg": "/landing_test/static/media/facebook.24f4aed8809f997ea6d9d0f7d2865b27.svg",
+    "static/media/facebook.svg": "/landing_test/static/media/facebook.52d776ea51fea06e76d31b99f673fb36.svg",
     "static/media/phone-dark.svg": "/landing_test/static/media/phone-dark.0011425619b7aef7105e8372115b86b2.svg",
     "static/media/phone.svg": "/landing_test/static/media/phone.a24392a8d78cad1996f40b5f1f630b5c.svg",
     "static/media/moon-icon.svg": "/landing_test/static/media/moon-icon.8539752b6a5219a94af5e75fb9288f4b.svg",
@@ -48,11 +48,11 @@
     "static/media/clock.svg": "/landing_test/static/media/clock.55145844d37fdca06db6795fd08f8398.svg",
     "static/media/alco.svg": "/landing_test/static/media/alco.9dfef19bd6c7fe99a28e4b62a7f2fb79.svg",
     "index.html": "/landing_test/index.html",
-    "main.b7b7fb3d.css.map": "/landing_test/static/css/main.b7b7fb3d.css.map",
-    "main.33e21992.js.map": "/landing_test/static/js/main.33e21992.js.map"
+    "main.baa6948a.css.map": "/landing_test/static/css/main.baa6948a.css.map",
+    "main.083fe0fa.js.map": "/landing_test/static/js/main.083fe0fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7b7fb3d.css",
-    "static/js/main.33e21992.js"
+    "static/css/main.baa6948a.css",
+    "static/js/main.083fe0fa.js"
   ]
 }
