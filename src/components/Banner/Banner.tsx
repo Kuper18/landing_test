@@ -9,18 +9,10 @@ import downloadIcon from '../../images/icons/download-icon.svg';
 import { RatingCircle } from '../RatingCircle/RatingCircle';
 import { BannerMenuDescktop } from '../BannerMenuDescktop/BannerMenuDescktop';
 import './Banner.scss';
-import { useTheme } from '../../provider/ThemeContext';
 
 export const Banner = () => {
-  const { theme } = useTheme();
-
   return (
     <div
-      style={
-        {
-          ...theme,
-        } as React.CSSProperties
-      }
       className="banner"
     >
       <div className="container">
